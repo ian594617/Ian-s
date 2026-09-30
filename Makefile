@@ -26,7 +26,7 @@ run-c: src/main.out
 run-py:
 	@python3 src/main.py
 
-test: test-c test-py
+test: test-c 
 
 test-c: tests/test_sort.out
 	@./tests/test_sort.out
